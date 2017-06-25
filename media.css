@@ -1,0 +1,21 @@
+@media screen and (max-width: 1472px) {
+  #roof-text {
+    color: indigo;
+    font-size: 55px;
+    width: 53%;
+    letter-spacing: -5px;
+    word-spacing: -1px;
+    line-height: 1.2em;
+    padding-right: 0px;
+  }
+  #line {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1372px) {
+  #roof-text {
+    color: indigo;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+}

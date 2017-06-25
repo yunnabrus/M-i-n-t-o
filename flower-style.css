@@ -1,3 +1,15 @@
+.flower {
+  margin-left: auto;
+  margin-right: auto;
+}
+.flower .label {
+  position: absolute;
+  padding-left: 205px;
+  text-shadow: 2px 2px 0px black, 0 0 1em whitesmoke;
+  font-size: 94px;
+  color: white;
+  line-height: 6em;
+}
 .flower .figure-one {
   position: absolute;
   transform: rotate(35deg);
@@ -32,6 +44,7 @@
   position: absolute;
   transform: rotate(90deg);
   opacity: 0.9;
+  text-align: center;
 }
 .flower .figure-eight {
   position: absolute;
@@ -87,12 +100,4 @@
   position: absolute;
   transform: rotate(0deg);
   opacity: 0.6;
-}
-.flower .label {
-  position: absolute;
-  padding-left: 205px;
-  text-shadow: 2px 2px 0px black, 0 0 1em whitesmoke;
-  font-size: 94px;
-  color: white;
-  line-height: 6em;
 }
